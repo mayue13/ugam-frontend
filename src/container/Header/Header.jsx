@@ -29,7 +29,7 @@ function Header() {
     <div className="app__header app__flex">
       <div className="video-header">
         <video loop autoPlay muted src={images.bgVideo4}></video>
-        {/* {showPopup && <RegistrationPopup onClose={closePopup} />} */}
+        {showPopup && <RegistrationPopup onClose={closePopup} />}
       </div>
     </div>
   );

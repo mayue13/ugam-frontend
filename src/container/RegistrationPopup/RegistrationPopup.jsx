@@ -19,9 +19,8 @@ const RegistrationPopup = () => {
       </button>
       <h2>Registration Open</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
-        distinctio fugiat alias iure qui, commodi minima magni ullam aliquam
-        dignissimos?
+        Registration for members is currently available. To register, simply
+        click the link below.
       </p>
       <a href={Common.RegistrationUrl} target="blank">
         Click to Register

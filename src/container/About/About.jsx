@@ -22,7 +22,7 @@ function About() {
         <span>About Us</span>
       </h2>
 
-      {/* <div className="details">
+      <div className="details">
         <p>
           Welcome to Ugam Pratisthan, Established in 2017, we are a renowned
           group known for our grand-sized dhol and our commitment to preserving
@@ -49,7 +49,7 @@ function About() {
           celebration with Ugam Pratisthan, the home of the Mothya Dholach
           Pathak.
         </p>
-      </div> */}
+      </div>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
