@@ -1,23 +1,9 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
-
-import { images } from "../../constants/index";
-
+import SimpleImageSlider from "react-simple-image-slider";
+import { HeaderImages } from "../../constants/index";
 import "./Header.scss";
-
 import { AppWrap } from "../../wrapper/index";
 import RegistrationPopup from "../RegistrationPopup/RegistrationPopup";
-
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duaration: 1,
-      ease: "easeInOut",
-    },
-  },
-};
 
 function Header() {
   const [showPopup, setShowPopup] = useState(true);
@@ -28,7 +14,16 @@ function Header() {
   return (
     <div className="app__header app__flex">
       <div className="video-header">
-        <video loop autoPlay muted src={images.bgVideo4}></video>
+        {/* <video loop autoPlay muted src={images.bgVideo4}></video> */}
+        <div className="slider-container">
+          <SimpleImageSlider
+            width={896}
+            height={504}
+            images={HeaderImages}
+            showBullets={true}
+            showNavs={true}
+          />
+        </div>
         {showPopup && <RegistrationPopup onClose={closePopup} />}
       </div>
     </div>

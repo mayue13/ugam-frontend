@@ -204,32 +204,7 @@
 }
 
 .video-header {
-  position: absolute;
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-
-  &,
-  video,
-  .viewport-header {
-    @include coverer;
-  }
-
-  video {
-    background: #53585f;
-    object-fit: cover;
-  }
-
-  .viewport-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    @media screen and (max-width: 1200px) {
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
-  }
+  position: relative;
 
   .popup {
     position: absolute;
@@ -293,3 +268,20 @@
     margin: 2rem 0;
   }
 }
+
+.slider-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.slider-container .image-slider {
+  width: 100%;
+  height: auto;
+}
+
+// @media (max-width: 768px) {
+//   .slider-container {
+//     max-width: 90%;
+//     margin: 0 auto;
+//   }
+// }
