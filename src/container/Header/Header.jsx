@@ -1,22 +1,19 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { images } from "../../constants/index";
+import React, { useState } from "react";
 import "./Header.scss";
 import { AppWrap } from "../../wrapper/index";
-
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duaration: 1,
-      ease: "easeInOut",
-    },
-  },
-};
+import RegistrationPopup from "../RegistrationPopup/RegistrationPopup";
 
 function Header() {
-  return <div className="app__header app__flex"></div>;
+  const [showPopup, setShowPopup] = useState(true);
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+  return (
+    <div className="app__header app__flex">
+      {showPopup && <RegistrationPopup onClose={closePopup} />}
+    </div>
+  );
 }
 
 export default AppWrap(Header, "home");
