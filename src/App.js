@@ -5,7 +5,7 @@ import {
   Footer,
   Header,
   Skills,
-  Work,
+  Event,
   Testimonials,
 } from "./container/index";
 
@@ -17,8 +17,8 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      {/* <Work/>
-      <Skills/>
+      <Event />
+      {/*<Skills/>
       <Testimonials/>*/}
       <Footer />
     </div>
