@@ -1,13 +1,6 @@
 import "./App.scss";
 
-import {
-  About,
-  Footer,
-  Header,
-  Skills,
-  Event,
-  Testimonials,
-} from "./container/index";
+import { About, Footer, Header, Gallery, Event } from "./container/index";
 
 import { Navbar } from "./components/index";
 
@@ -18,8 +11,7 @@ function App() {
       <Header />
       <About />
       <Event />
-      {/*<Skills/>
-      <Testimonials/>*/}
+      <Gallery />
       <Footer />
     </div>
   );
