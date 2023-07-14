@@ -51,6 +51,10 @@
   }
 }
 
+.design-by {
+  margin-top: 5px;
+}
+
 .head-text {
   font-size: 2.75rem;
   font-weight: 800;
@@ -60,6 +64,10 @@
 
   span {
     color: var(--span-color);
+  }
+
+  a :link {
+    color: #eb6f1d;
   }
 
   @media screen and (min-width: 2000px) {
@@ -87,7 +95,6 @@
   font-weight: 800;
   color: var(--black-color);
   text-align: left;
-  
 
   @media screen and (min-width: 2000px) {
     font-size: 2rem;
@@ -149,7 +156,6 @@
   }
 }
 
-
 .app__navigation {
   display: flex;
   justify-content: center;
@@ -188,7 +194,6 @@
     padding: 2rem;
   }
 }
-
 
 .app__socialContact {
   display: flex;
