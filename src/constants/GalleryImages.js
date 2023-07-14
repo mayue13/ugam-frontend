@@ -1,26 +1,32 @@
+import headImage3 from "../assets/images/header3.JPG";
+import headImage1 from "../assets/images/header1.jpg";
+import headImage2 from "../assets/images/header2.JPG";
+import headImage4 from "../assets/images/header4.JPG";
+import img1 from "../assets/images/img1.jpg";
+
 const GalleryImages = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    src: headImage3,
     width: 4,
     height: 3,
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    src: headImage1,
     width: 1,
     height: 1,
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    src: headImage3,
     width: 3,
     height: 4,
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    src: headImage2,
     width: 3,
     height: 4,
   },
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+    src: headImage4,
     width: 3,
     height: 4,
   },
