@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GalleryImages } from "../../constants/index";
-import Gallery from "react-photo-gallery";
+//import Gallery from "react-photo-gallery";
 
 function PhotoGallery() {
   const itemsPerPage = 7;
@@ -25,7 +25,7 @@ function PhotoGallery() {
 
   return (
     <div className="img-container">
-      <Gallery photos={currentPhotos} />
+      {/* <Gallery photos={currentPhotos} /> */}
       <div className="pagination">
         <button onClick={handlePreviousPage} disabled={currentPage === 1}>
           &laquo;
