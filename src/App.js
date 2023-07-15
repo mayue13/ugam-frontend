@@ -12,7 +12,7 @@ function App() {
       <Header />
       <About />
       <Event />
-      <Gallery />
+      {/* <Gallery /> */}
       <Footer />
     </div>
   );
