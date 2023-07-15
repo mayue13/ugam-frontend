@@ -2,7 +2,6 @@ import headImage3 from "../assets/images/header3.JPG";
 import headImage1 from "../assets/images/header1.jpg";
 import headImage2 from "../assets/images/header2.JPG";
 import headImage4 from "../assets/images/header4.JPG";
-import img1 from "../assets/images/img1.jpg";
 
 const GalleryImages = [
   {
