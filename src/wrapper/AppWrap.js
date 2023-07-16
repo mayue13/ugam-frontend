@@ -15,12 +15,12 @@ const AppWrap = (Component, idName, classNames) =>
             <div className="design-by">
               {idName === "contact" && (
                 <p className="p-text">
-                  Design by{" "}
+                  Made With 💝 By&nbsp;&nbsp;
                   <a
-                    href="https://www.linkedin.com/in/mayurdahake"
+                    href="https://www.instagram.com/mayue.dahake/"
                     target="blank"
                   >
-                    mayur
+                    Mayur Dahake
                   </a>
                 </p>
               )}

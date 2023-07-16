@@ -66,8 +66,9 @@
     color: var(--span-color);
   }
 
-  a :link {
+  a {
     color: #eb6f1d;
+    margin-left: 5px;
   }
 
   @media screen and (min-width: 2000px) {
