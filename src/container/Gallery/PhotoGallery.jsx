@@ -16,7 +16,7 @@ function PhotoGallery() {
     <div>
       <Carousel
         data={GalleryImages}
-        time={2000}
+        time={3000}
         width="850px"
         height="500px"
         captionStyle={captionStyle}
