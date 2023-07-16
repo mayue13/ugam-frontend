@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { GalleryImages } from "../../constants/index";
-//import Gallery from "react-photo-gallery";
 import { Carousel } from "react-carousel-minimal";
 
 function PhotoGallery() {
@@ -62,7 +61,7 @@ function PhotoGallery() {
         height="500px"
         captionStyle={captionStyle}
         radius="10px"
-        slideNumber={true}
+        slideNumber={false}
         slideNumberStyle={slideNumberStyle}
         captionPosition="bottom"
         automatic={true}

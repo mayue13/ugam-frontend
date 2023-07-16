@@ -5,7 +5,7 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 import circle from "../assets/circle.svg";
 //import logo from "../assets/logo.png";
-import logo from "../assets/ugamLogo.JPG";
+import logo from "../assets/ugamLogo.png";
 import register from "../assets/register.png";
 
 // Video
