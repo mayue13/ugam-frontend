@@ -5,44 +5,41 @@ import headImage4 from "../assets/images/header4.JPG";
 
 const GalleryImages = [
   {
-    src: headImage3,
-    width: 4,
-    height: 3,
+    image: headImage2,
   },
   {
-    src: headImage1,
-    width: 1,
-    height: 1,
+    image: headImage3,
   },
   {
-    src: headImage3,
-    width: 3,
-    height: 4,
+    image: headImage1,
   },
   {
-    src: headImage2,
-    width: 3,
-    height: 4,
+    image: headImage4,
   },
   {
-    src: headImage4,
-    width: 3,
-    height: 4,
+    image:
+      "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
+    caption: "Scotland",
   },
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3,
+    image:
+      "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
+    caption: "Darjeeling",
   },
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4,
+    image:
+      "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
+    caption: "San Francisco",
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3,
+    image:
+      "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
+    caption: "Scotland",
+  },
+  {
+    image:
+      "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
+    caption: "Darjeeling",
   },
 ];
 
