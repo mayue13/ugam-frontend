@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BsTwitter,
   BsInstagram,
   BsFacebook,
   BsYoutube,

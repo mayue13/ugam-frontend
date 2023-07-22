@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { GalleryImages } from "../../constants/index";
 import { Carousel } from "react-carousel-minimal";
 
