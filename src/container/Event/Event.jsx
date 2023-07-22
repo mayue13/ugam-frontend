@@ -42,17 +42,19 @@ function Event() {
       </h2>
 
       <div className="app__event-filter">
-        {["Ganpati", "Shiv Jayanti", "Corporate", "All"].map((item, index) => (
-          <div
-            key={index}
-            onClick={() => handleEventFilter(item)}
-            className={`app__event-filter-item app__flex p-text ${
-              activeFilter === item ? "item-active" : ""
-            }`}
-          >
-            {item}
-          </div>
-        ))}
+        {["Ganpati", "Shiv Jayanti", "Corporate", "Other", "All"].map(
+          (item, index) => (
+            <div
+              key={index}
+              onClick={() => handleEventFilter(item)}
+              className={`app__event-filter-item app__flex p-text ${
+                activeFilter === item ? "item-active" : ""
+              }`}
+            >
+              {item}
+            </div>
+          )
+        )}
       </div>
 
       <motion.div
