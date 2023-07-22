@@ -22,30 +22,31 @@ function About() {
 
       <div className="details">
         <p>
-          Welcome to Ugam Pratisthan, Established in 2017, we are a renowned
-          group known for our grand-sized dhol and our commitment to preserving
-          the cultural heritage of Ganpati Bappa and Chhatrapati Shivaji
-          Maharaj. Our hashtag, #Mothya_Dholach_Pathak, represents our passion
-          and dedication to the art of playing the big-sized dhol.
+          Welcome to Ugam Vadyapathak Trust! Established in 2017 as Ugam
+          Pratisthan, our renowned group is known for our grand-sized dhol and
+          our deep commitment to preserving the cultural heritage of Ganpati
+          Bappa and Chhatrapati Shivaji Maharaj. Our hashtag,
+          #Mothya_Dholach_Pathak, represents our passion and dedication to the
+          art of playing the big-sized dhol.
         </p>
         <p>
-          Ugam Pratisthan is an organization that specializes in providing
-          mesmerizing dhol performances for a range of events and occasions. We
-          bring the thundering beats of our dhol to boost the intensity and
-          excitement of these important occasions, from the magnificent
-          celebrations of Ganapati Utsav to the jubilant sentiments of Ram
-          Navami and the remembrance of Chhatrapati Shivaji Maharaj Jayanti, or
-          Rajyaabhishek. Our captivating performances captivate audiences and
-          leave a lasting impression.
+          Ugam Vadyapathak Trust specializes in providing mesmerizing dhol
+          performances for a range of events and occasions. We bring the
+          thundering beats of our dhol to boost the intensity and excitement of
+          these important occasions, from the magnificent celebrations of
+          Ganapati Utsav to the jubilant sentiments of Ram Navami and the
+          remembrance of Chhatrapati Shivaji Maharaj Jayanti, or Rajyaabhishek.
+          Our captivating performances captivate audiences and leave a lasting
+          impression.
         </p>
         <p>
-          Join us at Ugam Pratisthan as we celebrate the spirit of Ganpati Bappa
-          and the legacy of Chhatrapati Shivaji Maharaj through the resounding
-          beats of our big-sized dhol. Explore our website, connect with us on
-          social media, and stay updated with our upcoming performances and
-          events. Together, let's create a symphony of love, devotion, and
-          celebration with Ugam Pratisthan, the home of the Mothya Dholach
-          Pathak.
+          Join us at Ugam Vadyapathak Trust as we celebrate the spirit of
+          Ganpati Bappa and the legacy of Chhatrapati Shivaji Maharaj through
+          the resounding beats of our big-sized dhol. Explore our website,
+          connect with us on social media, and stay updated with our upcoming
+          performances and events. Together, let's create a symphony of love,
+          devotion, and celebration with Ugam Vadyapathak Trust, the home of the
+          Mothya Dholach Pathak.
         </p>
       </div>
 
