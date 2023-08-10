@@ -26,7 +26,7 @@ export default function SocialMediaContact() {
       </div>
       <div>
         <a
-          href="https://www.instagram.com/ugam_pratisthan_pune"
+          href="https://www.instagram.com/ugam_trust_pune"
           target="_blank"
           rel="noopener noreferrer"
         >
